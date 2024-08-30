@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3 .bold{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.specialBtn{
+    background: #fff;
+    box-shadow: 0 14px 55px rgba(96, 165, 250, 0.35);
+    transition: .3s;
+}
+
+.specialBtn:hover{
+    opacity: .8;
+}
+
+.loading{
+    animation: loadingAnim 5s linear infinite;
+    margin-right: auto;
+}
+
+.loading1{
+    animation-delay: -4s;
+}
+.loading2{
+    animation-delay: -2s;
+}
+@keyframes loadingAnim {
+    0%{
+        width: 100%;
+    }
+    10%{
+        width: 90%;
+    }
+    20%{
+        width: 80%;
+    }
+    30%{
+        width: 70%;
+    }
+    40%{
+        width: 60%;
+    }
+    50%{
+        width: 55%;
+    }
+    60%{
+        width: 90%;
+    }
+    70%{
+        width: 33%;
+    }
+    80%{
+        width: 90%;
+    }
+    90%{
+        width: 11%;
+    }
+    100%{
+        width: 97%;
+    }
+}
+
